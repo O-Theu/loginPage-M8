@@ -1,0 +1,31 @@
+body {
+    position: relative;
+    background-color: #84C7AE;
+    overflow: hidden;
+}
+
+body::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: -550px;
+    left: -250px;
+    width: 750px;
+    height: 750px;
+    background: #C1E3D6;
+    border-radius: 160px;
+    transform: rotate(45deg);
+}
+
+body::before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    bottom: -550px;
+    right: -250px;
+    width: 750px;
+    height: 750px;
+    background: #C1E3D6;
+    border-radius: 160px;
+    transform: rotate(45deg);
+}

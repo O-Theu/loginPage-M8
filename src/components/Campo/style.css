@@ -1,0 +1,16 @@
+form label {
+    font-weight: 700;
+    color: #000;
+    display: block;
+    text-align: start;
+    margin: 8px 30px;
+}
+
+form input {
+    background-color: #FFF;
+    padding: 1.5em 1em;
+    margin: .5em auto;
+    width: 80%;
+    border: 1.5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
